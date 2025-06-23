@@ -28,7 +28,7 @@ const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-workshop-primary px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
+              className="border-2 border-workshop-accent text-workshop-accent hover:bg-workshop-accent hover:text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
             >
               <Icon name="MapPin" className="mr-2" />
               Наш адрес
