@@ -51,7 +51,9 @@ const Contacts = () => {
                 Наш адрес
               </h3>
               <div className="space-y-3">
-                <p className="text-lg font-semibold">ул. Ленина, д. 15</p>
+                <p className="text-lg font-semibold">
+                  ул. Школьная 24, ТЦ "Донбасс"
+                </p>
                 <p className="text-gray-600">Лабытнанги, 629400</p>
                 <p className="text-gray-600">
                   🏢 Центр города (удобный подъезд)
