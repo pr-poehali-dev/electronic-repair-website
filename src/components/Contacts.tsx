@@ -54,7 +54,7 @@ const Contacts = () => {
                 <p className="text-lg font-semibold">
                   ул. Школьная 24, ТЦ "Донбасс"
                 </p>
-                <p className="text-gray-600">Лабытнанги, 629400</p>
+                <p className="text-gray-600">Лабытнанги</p>
                 <p className="text-gray-600">
                   🏢 Центр города (удобный подъезд)
                 </p>
