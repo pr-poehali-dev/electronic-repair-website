@@ -32,7 +32,9 @@ const Contacts = () => {
                     +7 (912) 424-42-42
                   </span>
                 </div>
-                <p className="text-gray-600">Ежедневно с 9:00 до 21:00</p>
+                <p className="text-gray-600">
+                  Ежедневно с 10:00 до 18:00, Суббота выходной!
+                </p>
                 <Button className="bg-workshop-accent hover:bg-pink-600 text-white">
                   <Icon name="Phone" className="w-4 h-4 mr-2" />
                   Позвонить сейчас
