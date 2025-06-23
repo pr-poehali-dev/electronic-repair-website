@@ -29,7 +29,7 @@ const Contacts = () => {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <span className="text-2xl font-bold text-workshop-primary">
-                    +7 (495) 123-45-67
+                    +7 (912) 424-42-42
                   </span>
                 </div>
                 <p className="text-gray-600">Ежедневно с 9:00 до 21:00</p>
@@ -49,12 +49,10 @@ const Contacts = () => {
                 Наш адрес
               </h3>
               <div className="space-y-3">
-                <p className="text-lg font-semibold">
-                  ул. Тверская, д. 10, стр. 1
-                </p>
-                <p className="text-gray-600">Москва, 125009</p>
+                <p className="text-lg font-semibold">ул. Ленина, д. 15</p>
+                <p className="text-gray-600">Лабытнанги, 629400</p>
                 <p className="text-gray-600">
-                  🚇 м. Тверская, Пушкинская (5 мин пешком)
+                  🏢 Центр города (удобный подъезд)
                 </p>
                 <p className="text-gray-600">
                   🅿️ Собственная парковка для клиентов
@@ -105,13 +103,13 @@ const Contacts = () => {
                 <div className="text-center text-gray-500">
                   <Icon name="Map" className="w-12 h-12 mx-auto mb-2" />
                   <p>Интерактивная карта</p>
-                  <p className="text-sm">ул. Тверская, д. 10, стр. 1</p>
+                  <p className="text-sm">ул. Ленина, д. 15</p>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-center text-sm text-gray-600">
                   <Icon name="Navigation" className="w-4 h-4 mr-2" />5 минут
-                  пешком от метро Тверская
+                  пешком от центра города
                 </div>
                 <div className="flex items-center text-sm text-gray-600">
                   <Icon name="Car" className="w-4 h-4 mr-2" />
