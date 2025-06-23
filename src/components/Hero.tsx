@@ -20,6 +20,7 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-workshop-accent hover:bg-pink-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
+              onClick={() => window.open("tel:+79124244242")}
             >
               Позвонить!
             </Button>
