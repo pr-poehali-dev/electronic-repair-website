@@ -1,16 +1,13 @@
-import { Toaster } from "@/components/ui/toaster";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "@/pages/Index";
-import NotFound from "@/pages/NotFound";
-import "./App.css";
+import { Toaster } from "@/components/ui/sonner";
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="App">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
         <Toaster />
       </div>
