@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import { useState } from "react";
+import ContactModal from "@/components/ContactModal";
 
 const Hero = () => {
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   return (
     <section className="bg-gradient-to-br from-workshop-primary to-blue-600 text-white py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
@@ -23,6 +26,15 @@ const Hero = () => {
               onClick={() => window.open("tel:+79124244242")}
             >
               Позвонить!
+            </Button>
+
+            <Button
+              size="lg"
+              className="bg-workshop-secondary hover:bg-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
+              onClick={() => setIsContactModalOpen(true)}
+            >
+              <Icon name="MessageSquare" className="mr-2" />
+              Написать!
             </Button>
 
             <Button
@@ -75,6 +87,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      <ContactModal
+        isOpen={isContactModalOpen}
+        onClose={() => setIsContactModalOpen(false)}
+      />
     </section>
   );
 };
