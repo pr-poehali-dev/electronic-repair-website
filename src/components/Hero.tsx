@@ -8,7 +8,9 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 font-montserrat">
             Ремонт электроники
-            <span className="block text-workshop-accent">любой сложности</span>
+            <span className="block text-workshop-accent/80">
+              любой сложности
+            </span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
