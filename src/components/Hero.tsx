@@ -30,7 +30,7 @@ const Hero = () => {
 
             <Button
               size="lg"
-              className="bg-workshop-secondary hover:bg-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
+              className="bg-workshop-secondary hover:bg-rose-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
               onClick={() => setIsContactModalOpen(true)}
             >
               <Icon name="MessageSquare" className="mr-2" />
