@@ -13,7 +13,7 @@ const Hero = () => {
 
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
             Смартфоны, планшеты, ноутбуки, бытовая техника — всё под одной
-            крышей. Бесплатная диагностика и гарантия на все работы.
+            крышей. Гарантия на все работы.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
