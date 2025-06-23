@@ -21,8 +21,7 @@ const Hero = () => {
               size="lg"
               className="bg-workshop-accent hover:bg-pink-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
             >
-              <Icon name="Phone" className="mr-2" />
-              Заказать ремонт
+              Позвонить!
             </Button>
 
             <Button
