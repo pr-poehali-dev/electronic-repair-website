@@ -6,7 +6,7 @@ const config: Config = {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}"
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -53,9 +53,10 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
         workshop: {
-          primary: "#0057FF",
-          accent: "#FF2461",
-          gray: "#F9F9F9",
+          primary: "#1e40af", // синий
+          secondary: "#dc2626", // красный
+          accent: "#ec4899", // розовый
+          gray: "#f8fafc", // светло-серый
         },
       },
       fontFamily: {
